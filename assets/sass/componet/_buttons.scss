@@ -1,0 +1,11 @@
+.btn {
+    background-color: $neon-green;
+    position: absolute;
+    bottom: -8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+
+}
+
+@media (min-width: $small) {
+  .pattern {
+    content: url("/assets/images/pattern-divider-desktop.svg");
+  }
+}
