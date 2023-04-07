@@ -24,12 +24,14 @@ main {
     color: hsl(150, 100%, 66%);
   }
 
-  #comment {
+  p {
     font-size: 28px;
     color: hsl(193, 38%, 86%);
-    font-weight: 800;
     text-align: center;
-    padding: 1rem 0.2rem;
     height: clamp(100px, 50%, 200px);
+
+    #comment {
+      font-weight: 800;
+    }
   }
 }

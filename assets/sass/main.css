@@ -96,13 +96,14 @@ main h1 {
   margin: 1rem auto;
   color: hsl(150, 100%, 66%);
 }
-main #comment {
+main p {
   font-size: 28px;
   color: hsl(193, 38%, 86%);
-  font-weight: 800;
   text-align: center;
-  padding: 1rem 0.2rem;
   height: clamp(100px, 50%, 200px);
+}
+main p #comment {
+  font-weight: 800;
 }
 
 .line {
@@ -121,6 +122,7 @@ main #comment {
   background-color: hsl(150, 100%, 66%);
   position: absolute;
   bottom: -8%;
+  transform: translateY(0, -40%);
   display: flex;
   justify-content: center;
   align-items: center;

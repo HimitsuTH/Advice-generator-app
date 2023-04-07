@@ -15,6 +15,6 @@ const randomText = async () => {
       
 
       comment_id.textContent = `${comment[0].id}`
-      comment_text.textContent = `" ${comment[0].body} "`
+      comment_text.textContent = `${comment[0].body}.`
     });
 };
