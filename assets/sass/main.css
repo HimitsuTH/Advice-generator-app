@@ -97,7 +97,6 @@ main h1 {
   color: hsl(150, 100%, 66%);
 }
 main p {
-  font-size: 28px;
   color: hsl(193, 38%, 86%);
   text-align: center;
   height: clamp(100px, 50%, 200px);
@@ -110,7 +109,7 @@ main p #comment {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1.5rem 0;
+  margin: 2.5em 0;
 }
 
 @media (min-width: 375px) {
@@ -121,8 +120,8 @@ main p #comment {
 .btn {
   background-color: hsl(150, 100%, 66%);
   position: absolute;
-  bottom: -8%;
-  transform: translateY(0, -40%);
+  bottom: -5%;
+  transform: translate(0, 30%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +132,22 @@ main p #comment {
 .btn:hover {
   box-shadow: 0 0 20px hsl(150, 100%, 66%);
 }
+@media (min-width: 375px) {
+  .btn {
+    bottom: -2%;
+    transform: translate(0%, 40%);
+  }
+}
 
 body {
   font-family: "Manrope", Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+@media (min-width: 375px) {
+  p {
+    font-size: 28px;
+  }
 }/*# sourceMappingURL=main.css.map */
