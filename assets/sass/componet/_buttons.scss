@@ -8,4 +8,8 @@
     padding:1rem;
     border-radius: 50%;
     cursor: pointer;
+
+    &:hover {
+        box-shadow:  0 0 20px $neon-green;
+    }
 }

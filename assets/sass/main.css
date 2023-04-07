@@ -89,7 +89,7 @@ main {
   background-color: hsl(217, 19%, 24%);
   border-radius: 1em;
   width: clamp(100px, 90%, 550px);
-  padding: 0.75em;
+  padding: 1em;
 }
 main h1 {
   font-size: 16px;
@@ -127,6 +127,9 @@ main #comment {
   padding: 1rem;
   border-radius: 50%;
   cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 0 0 20px hsl(150, 100%, 66%);
 }
 
 body {
